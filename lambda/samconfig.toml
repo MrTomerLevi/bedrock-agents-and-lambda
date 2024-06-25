@@ -1,0 +1,11 @@
+version = 0.1
+[default.deploy.parameters]
+stack_name = "armada-conf-center-bedrock-agents"
+resolve_s3 = true
+s3_prefix = "armada-conf-center-bedrock-agents"
+region = "us-east-1"
+profile = "tomer-dev"
+confirm_changeset = false
+capabilities = "CAPABILITY_IAM"
+disable_rollback = true
+image_repositories = []

@@ -1,0 +1,28 @@
+Hall Configurations and Pricing
+
+Armada Venue offers a variety of halls to accommodate events of various sizes and needs. Below is a breakdown of our most popular halls, their configurations, and pricing information.
+
+**Hall Name	Capacity (Seated)	Capacity (Standing)	Base Price**
+Auditorium	1,000	1,500	$5,000
+Main Ballroom	500	750	$3,500
+Grand Hall	300	500	$2,000
+Meeting Room A	100	150	$1,500
+Meeting Room B	50	75	$1,000
+Meeting Room C	30	50	$750
+Studio 1	75	100	$1,200
+Studio 2	50	75	$1,000
+Multipurpose Room	150	200	$1,800
+Art Gallery	100 (Standing)	N/A	$1,500
+
+drive_spreadsheet
+Export to Sheets
+Additional Charges
+
+Audio/Visual Equipment: Projectors ($200), Sound Systems ($300)
+Staging: Platform Stages (varies based on size), Riser Seating (per row)
+Catering Services: Pricing varies depending on the chosen vendor and menu options
+Discounts
+
+Multi-day events may be eligible for a 10% discount on the base venue fee.
+Non-profit organizations may receive a 15% discount upon verification of status.
+Please note: Prices are subject to change without notice.

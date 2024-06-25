@@ -1,0 +1,2 @@
+aws-lambda-powertools[all]==2.39.1
+pydantic[email]==1.10.17

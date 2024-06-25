@@ -1,0 +1,32 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Transform: AWS::Serverless-2016-10-31
+Description: >
+  Agents for Amazon Bedrock example with Powertools for AWS Lambda (Python)
+
+Globals: 
+  Function:
+    Timeout: 60
+    Runtime: python3.12
+    Tracing: Active
+    Environment:
+      Variables:
+        POWERTOOLS_SERVICE_NAME: ArmadaAgentLambda
+        POWERTOOLS_LOG_LEVEL: INFO
+
+Resources:
+  ApiFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: reservations/main.lambda_handler
+      Runtime: python3.12
+      Description: Agent for Amazon Bedrock handler function
+      CodeUri: ./
+
+
+  BedrockPermission:
+    Type: AWS::Lambda::Permission
+    Properties:
+      Action: lambda:InvokeFunction
+      FunctionName: !GetAtt ApiFunction.Arn
+      Principal: bedrock.amazonaws.com
+      SourceAccount: !Sub ${AWS::AccountId}
