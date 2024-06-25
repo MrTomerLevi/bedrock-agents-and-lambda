@@ -1,3 +1,9 @@
+## Conference Center Chatbot Application
+
+We will build a chatbot application powered by Bedrock Agent, <br/>
+Foundation Model, Static documents in a Knowledge Base and Lambda function as a backend service. <br/>
+The Lambda function will be powered by AWS Lambda Powertools.
+
 ### Solution architecture
 ![Architecture](images/architecture.png)
 
@@ -193,6 +199,10 @@ Select, then delete the created knowledge base.
 pip install -r lambda/requirements.txt
 ```
 
+* You can use `tools\invoke_agent.py` (boto3 required) to progermatically test the agent.
+You will need to set the Agent ID, Alias ID, and AWS CLI profile.
+
+![Test the agent with AWS SDK](images/agent_test_with_boto3.png)
 
 # References
 * https://github.com/build-on-aws/bedrock-agents-streamlit
